@@ -26,7 +26,6 @@ public class FindPeakElement {
         return low;
         // why returning low because when low == high then we have found the peak element
     }
-
     private static int getPeakElementUsingLinearSearch(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             if (arr[i] > arr[i + 1]) {
